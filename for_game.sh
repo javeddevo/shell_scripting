@@ -1,6 +1,9 @@
-echo "============WELCOME TO THE NO GUESS GAME============="
-sleep 1
+echo "=========================WELCOME TO THE NO GUESS GAME=================="
+echo ""
+echo ""
 echo "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b Your guess should be from 1-100"
+echo ""
+echo ""
 secno=30
 chance=3
 i=3
@@ -9,8 +12,8 @@ do
   read -p "Enter your guess no: " input
   if [ ${input} -eq ${secno} ]
   then
-   echo "CONGRATSGULATIONS!YOU WON THE GAME"
-   break
+   echo "===================CONGRATSGULATIONS!YOU WON THE GAME================="
+  break
   else
    echo "wrong guess"
     i=$(( i - 1 ))
