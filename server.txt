@@ -1,0 +1,2 @@
+server1:ubuntu:17.21.34.333
+server2:centos:36:44:44:444
